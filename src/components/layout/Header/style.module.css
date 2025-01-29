@@ -1,0 +1,46 @@
+ .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font: Roboto;
+    font-weight: 600;
+
+ }
+
+ .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ }
+
+ .text h2 {
+   width: 54%;
+   font-size: 30px; 
+ }
+
+ .text p {
+   width: 42%;
+ }
+
+ .text span {
+   color: #846AFF;
+ }
+
+ .text button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: #846AFF;
+  color:#FFFFFF;
+  
+
+  
+
+ }
+
