@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "@/components/layout/GetInTouch/style.module.css"
+import styles from "./style.module.css"
 
 const GetInTouch = () =>     {
   return (
