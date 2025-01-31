@@ -23,7 +23,7 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>O que é linguagem de programação? Conheça as principais</h4>
+          <h3>O que é linguagem de programação? Conheça as principais</h3>
           <p>
             Uma das mais populares vertentes da tecnologia da informação, a área
             de...
@@ -40,10 +40,10 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>
+          <h3>
             Python: por que a linguagem é tão usada para Data Science e
             finanças?
-          </h4>
+          </h3>
           <p>
             {" "}
             O mundo da programação conta com algumas opções de linguagem para...
@@ -60,7 +60,7 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h4>
+          <h3>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h3>
           <p>
             {" "}
             O popular serviço de repositório de código GitHub foi adquirido
@@ -78,7 +78,7 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>15 comandos no GIT que os desenvolvedores precisam saber</h4>
+          <h3>15 comandos no GIT que os desenvolvedores precisam saber</h3>
           <p>
             {" "}
             Dominar os comandos GIT é uma habilidade que se conquista com...
@@ -95,7 +95,7 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>GIT e GitHub: o que são e quais as diferenças entre eles?</h4>
+          <h3>GIT e GitHub: o que são e quais as diferenças entre eles?</h3>
           <p>
             {" "}
             Git e GibHub são dois softwares de controle de versão essenciais
@@ -113,9 +113,9 @@ const RecommendedArticles = () => {
           />
           <div className={styles.letterContainer}>
 
-          <h4>
+          <h3>
             GitHub Copilot ganha integração com GPT-4 e interface conversacional
-          </h4>
+          </h3>
           <p>
             O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...
           </p>

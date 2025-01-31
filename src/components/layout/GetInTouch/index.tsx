@@ -13,7 +13,7 @@ const GetInTouch = () =>     {
 
             <button>Entrar em contato</button>
 
-        </form>
+        </form> 
 
     </div>
   )
