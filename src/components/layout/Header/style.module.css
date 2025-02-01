@@ -1,4 +1,4 @@
- .container {
+   .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,9 +38,10 @@
   border: none;
   background-color: #846AFF;
   color:#FFFFFF;
-  
+ }
 
-  
-
+ .text button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
  }
 

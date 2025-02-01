@@ -1,22 +1,29 @@
-import React from 'react'
-import styles from "./style.module.css"
+import React from "react";
+import styles from "./style.module.css";
 
-const GetInTouch = () =>     {
+const GetInTouch = () => {
   return (
     <div className={styles.container}>
+      <h2>Entre em Contato</h2>
 
-        <form action="">
+      <form action="" className={styles.formContainer}>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Nome"
+          className={styles.inputs}
+        />
+        <input type="email" placeholder="email" className={styles.inputs} />
+        <textarea
+          placeholder="Assunto da mensagem"
+          className={styles.inputMessage}
+        />
 
-            <input type="text" name="" id="" placeholder='Nome' />
-            <input type="email" placeholder='email' />
-            <input type="text" placeholder='Assunto da mensagem' />
-
-            <button>Entrar em contato</button>
-
-        </form> 
-
+        <button type="submit">Entrar em contato</button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default GetInTouch
+export default GetInTouch;
