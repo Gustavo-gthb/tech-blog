@@ -11,10 +11,14 @@ import ShowRobot from "@/assets/img/ShowRobot.webp";
 const RecommendedArticles = () => {
   return (
     <div className={styles.container}>
+
+      <div className={styles.containerTitle}>
+
       <h2>Artigos Recomendados</h2>
+      </div>  
 
       <div className={styles.articlesContainer}>
-        <div className={styles.articles}>
+        <div className={styles.articles}> 
           <Image
             src={ShowCode}
             alt="imagem de código"
@@ -57,8 +61,8 @@ const RecommendedArticles = () => {
             alt="imagem de código"
             width={384}
             height={175}
-          />
-          <div className={styles.letterContainer}>
+          /> 
+          <div className={styles.letterContainer}> 
 
           <h3>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h3>
           <p>

@@ -16,7 +16,7 @@ const Header = () =>  {
         </div>
         <div className={styles.image}>
           <Image src={ShowIlustra} alt='illustra' width={300} height={320} ></Image>
-        </div>
+        </div> 
     </div>
   ) 
 } 
