@@ -7,7 +7,7 @@
 }
 
 .containerTitle {
-    padding-right: 948px ;
+    padding-right: 950px ;
 }
 
 .articlesContainer {
@@ -52,4 +52,10 @@
   font-weight: 400;
   font-size: 18px;
   color: #121214;
+}
+
+@media screen and (max-width: 720px) {
+  .articlesContainer {
+    grid-template-columns: 1fr;
+  }
 }
